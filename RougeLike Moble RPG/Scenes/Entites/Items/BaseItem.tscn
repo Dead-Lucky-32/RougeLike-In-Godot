@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assests/Sprites/pinkHotdog.png" type="Texture" id=1]
+[ext_resource path="res://Assests/Scripts/BaseItem.gd" type="Script" id=2]
+
+[node name="pinkHotdog" type="Sprite"]
+texture = ExtResource( 1 )
+centered = false
+script = ExtResource( 2 )
